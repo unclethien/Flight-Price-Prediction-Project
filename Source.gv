@@ -1,0 +1,185 @@
+digraph {
+    graph [ rankdir=TB ]
+
+    0 [ label="class<1" ]
+    0 -> 1 [label="yes" color="#FF0000"]
+    0 -> 2 [label="no, missing" color="#0000FF"]
+
+    1 [ label="days_left<16" ]
+    1 -> 3 [label="yes" color="#FF0000"]
+    1 -> 4 [label="no, missing" color="#0000FF"]
+
+    3 [ label="duration<4.25" ]
+    3 -> 7 [label="yes" color="#FF0000"]
+    3 -> 8 [label="no, missing" color="#0000FF"]
+
+    7 [ label="duration<2.5" ]
+    7 -> 15 [label="yes" color="#FF0000"]
+    7 -> 16 [label="no, missing" color="#0000FF"]
+
+    15 [ label="days_left<4" ]
+    15 -> 31 [label="yes" color="#FF0000"]
+    15 -> 32 [label="no, missing" color="#0000FF"]
+
+    31 [ label="leaf=-3967.22241" ]
+
+    32 [ label="leaf=-4582.4043" ]
+
+    16 [ label="days_left<4" ]
+    16 -> 33 [label="yes" color="#FF0000"]
+    16 -> 34 [label="no, missing" color="#0000FF"]
+
+    33 [ label="leaf=-3265.85645" ]
+
+    34 [ label="leaf=-4062.06128" ]
+
+    8 [ label="days_left<4" ]
+    8 -> 17 [label="yes" color="#FF0000"]
+    8 -> 18 [label="no, missing" color="#0000FF"]
+
+    17 [ label="airline<5" ]
+    17 -> 35 [label="yes" color="#FF0000"]
+    17 -> 36 [label="no, missing" color="#0000FF"]
+
+    35 [ label="leaf=-2112.72583" ]
+
+    36 [ label="leaf=-1291.49854" ]
+
+    18 [ label="airline<5" ]
+    18 -> 37 [label="yes" color="#FF0000"]
+    18 -> 38 [label="no, missing" color="#0000FF"]
+
+    37 [ label="leaf=-3305.93042" ]
+
+    38 [ label="leaf=-2637.24756" ]
+
+    4 [ label="duration<4.25" ]
+    4 -> 9 [label="yes" color="#FF0000"]
+    4 -> 10 [label="no, missing" color="#0000FF"]
+
+    9 [ label="duration<2.42000008" ]
+    9 -> 19 [label="yes" color="#FF0000"]
+    9 -> 20 [label="no, missing" color="#0000FF"]
+
+    19 [ label="duration<1.33000004" ]
+    19 -> 39 [label="yes" color="#FF0000"]
+    19 -> 40 [label="no, missing" color="#0000FF"]
+
+    39 [ label="leaf=-5741.12256" ]
+
+    40 [ label="leaf=-5438.30469" ]
+
+    20 [ label="leaf=-5072.08545" ]
+
+    10 [ label="airline<1" ]
+    10 -> 21 [label="yes" color="#FF0000"]
+    10 -> 22 [label="no, missing" color="#0000FF"]
+
+    21 [ label="days_left<18" ]
+    21 -> 41 [label="yes" color="#FF0000"]
+    21 -> 42 [label="no, missing" color="#0000FF"]
+
+    41 [ label="leaf=-4901.17334" ]
+
+    42 [ label="leaf=-5339.78906" ]
+
+    22 [ label="stops<2" ]
+    22 -> 43 [label="yes" color="#FF0000"]
+    22 -> 44 [label="no, missing" color="#0000FF"]
+
+    43 [ label="leaf=-4606.86133" ]
+
+    44 [ label="leaf=-3838.01611" ]
+
+    2 [ label="duration<4.5" ]
+    2 -> 5 [label="yes" color="#FF0000"]
+    2 -> 6 [label="no, missing" color="#0000FF"]
+
+    5 [ label="duration<2.07999992" ]
+    5 -> 11 [label="yes" color="#FF0000"]
+    5 -> 12 [label="no, missing" color="#0000FF"]
+
+    11 [ label="duration<1.66999996" ]
+    11 -> 23 [label="yes" color="#FF0000"]
+    11 -> 24 [label="no, missing" color="#0000FF"]
+
+    23 [ label="airline<2" ]
+    23 -> 45 [label="yes" color="#FF0000"]
+    23 -> 46 [label="no, missing" color="#0000FF"]
+
+    45 [ label="leaf=-1744.61853" ]
+
+    46 [ label="leaf=-725.42926" ]
+
+    24 [ label="duration<2" ]
+    24 -> 47 [label="yes" color="#FF0000"]
+    24 -> 48 [label="no, missing" color="#0000FF"]
+
+    47 [ label="leaf=163.99292" ]
+
+    48 [ label="leaf=1127.34741" ]
+
+    12 [ label="airline<2" ]
+    12 -> 25 [label="yes" color="#FF0000"]
+    12 -> 26 [label="no, missing" color="#0000FF"]
+
+    25 [ label="duration<2.5" ]
+    25 -> 49 [label="yes" color="#FF0000"]
+    25 -> 50 [label="no, missing" color="#0000FF"]
+
+    49 [ label="leaf=851.554504" ]
+
+    50 [ label="leaf=2368.49878" ]
+
+    26 [ label="duration<2.17000008" ]
+    26 -> 51 [label="yes" color="#FF0000"]
+    26 -> 52 [label="no, missing" color="#0000FF"]
+
+    51 [ label="leaf=2000.59143" ]
+
+    52 [ label="leaf=3439.38452" ]
+
+    6 [ label="airline<2" ]
+    6 -> 13 [label="yes" color="#FF0000"]
+    6 -> 14 [label="no, missing" color="#0000FF"]
+
+    13 [ label="duration<5.5" ]
+    13 -> 27 [label="yes" color="#FF0000"]
+    13 -> 28 [label="no, missing" color="#0000FF"]
+
+    27 [ label="duration<5.42000008" ]
+    27 -> 53 [label="yes" color="#FF0000"]
+    27 -> 54 [label="no, missing" color="#0000FF"]
+
+    53 [ label="leaf=4600.28076" ]
+
+    54 [ label="leaf=5961.25439" ]
+
+    28 [ label="days_left<4" ]
+    28 -> 55 [label="yes" color="#FF0000"]
+    28 -> 56 [label="no, missing" color="#0000FF"]
+
+    55 [ label="leaf=10417.6582" ]
+
+    56 [ label="leaf=8571.35449" ]
+
+    14 [ label="days_left<6" ]
+    14 -> 29 [label="yes" color="#FF0000"]
+    14 -> 30 [label="no, missing" color="#0000FF"]
+
+    29 [ label="days_left<4" ]
+    29 -> 57 [label="yes" color="#FF0000"]
+    29 -> 58 [label="no, missing" color="#0000FF"]
+
+    57 [ label="leaf=15232.5488" ]
+
+    58 [ label="leaf=12858.2939" ]
+
+    30 [ label="stops<2" ]
+    30 -> 59 [label="yes" color="#FF0000"]
+    30 -> 60 [label="no, missing" color="#0000FF"]
+
+    59 [ label="leaf=10850.3135" ]
+
+    60 [ label="leaf=15466.0029" ]
+}
